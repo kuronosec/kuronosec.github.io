@@ -1,152 +1,204 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Andrés Gómez Ramírez",
+    "email": "andres.gomez@sakundi.io",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://kuronosec.github.io",
+    "summary": "Cybersecurity engineer and security researcher with 15+ years of experience across penetration testing, vulnerability research, intrusion detection, and applied AI for security monitoring. PhD in Cybersecurity (Goethe University Frankfurt, in collaboration with CERN). Co-Founder & CEO of Sakundi.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "San José",
+      "countryCode": "CR",
       "region": ""
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "0000-0003-1529-4614",
+        "url": "https://orcid.org/0000-0003-1529-4614"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "kuronosec",
+        "url": "https://github.com/kuronosec"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Costa Rica Institute of Technology (TEC)",
+      "position": "Part-Time Professor, Security/Blockchain",
+      "startDate": "2026",
+      "endDate": "Present",
+      "summary": "Teach within the Cybersecurity Master's program, covering blockchain security fundamentals."
+    },
+    {
+      "company": "Modulo Labs",
+      "position": "Security Developer",
+      "startDate": "2025",
+      "endDate": "2026",
+      "summary": "Analyzed and developed cryptographic code and smart contracts for Panther, a privacy-enhancing protocol, with a focus on security review."
+    },
+    {
+      "company": "Sakundi ÖU",
+      "position": "Co-Founder & CEO",
+      "startDate": "2020",
+      "endDate": "Present",
+      "summary": "Founded and lead a security, privacy, and digital identity startup, setting technical direction and client strategy. Deliver security audits, monitoring solutions, and identity infrastructure to enterprise and protocol clients."
+    },
+    {
+      "company": "Goethe University Frankfurt / CERN",
+      "position": "DevOps Engineer",
+      "startDate": "2013",
+      "endDate": "2020",
+      "summary": "Built and maintained the security monitoring system for the ALICE High-Level Trigger (HLT) computing cluster using Zabbix. Managed infrastructure-as-code and configuration management using Puppet."
+    },
+    {
+      "company": "Goethe University Frankfurt / CERN",
+      "position": "PhD Researcher, Computer Science (Cybersecurity)",
+      "startDate": "2013",
+      "endDate": "2019",
+      "summary": "Researched deep learning (generative models) and isolation-based methods for intrusion detection and prevention on the Worldwide LHC Computing Grid (WLCG). Built a Python/Perl framework implementing the research; co-authored 3 peer-reviewed papers from this work."
+    },
+    {
+      "company": "Fluid Attacks",
+      "position": "Security Researcher",
+      "startDate": "2011",
+      "endDate": "2013",
+      "summary": "Performed penetration tests, source code audits, and vulnerability assessments for banks, software development companies, and ISPs. Identified and reported multiple CVEs, including a Microsoft DirectShow memory-overwrite vulnerability (MS13-056)."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Goethe University, Frankfurt am Main, Germany",
+      "area": "Computer Science (Cybersecurity)",
+      "studyType": "PhD",
+      "startDate": "2013",
+      "endDate": "2019",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "Blockchain Training Alliance",
+      "area": "Blockchain Security",
+      "studyType": "BTA Certified Blockchain Security Professional",
       "startDate": "",
-      "endDate": "2014",
+      "endDate": "2021",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Universidad de Antioquia, Medellín, Colombia",
+      "area": "Computer Science",
+      "studyType": "BSc",
+      "startDate": "2003",
+      "endDate": "2011",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Offensive Security",
+      "keywords": ["Penetration testing", "Source code auditing", "Fuzzing", "Vulnerability research", "Exploit development", "Ethical hacking"]
+    },
+    {
+      "name": "Defensive Security",
+      "keywords": ["Intrusion detection & prevention", "Security monitoring for distributed/grid systems", "Distributed digital identity"]
+    },
+    {
+      "name": "AI / ML for Security",
+      "keywords": ["Deep learning", "Machine learning", "NLP", "TensorFlow", "Keras", "scikit-learn", "pandas", "NumPy", "SciPy", "Gensim"]
+    },
+    {
+      "name": "Languages",
+      "keywords": ["Python", "JavaScript/Node.js", "C/C++", "Java", "Solidity"]
+    },
+    {
+      "name": "DevOps / Infra",
+      "keywords": ["Docker", "Ansible", "Puppet", "Foreman", "Vagrant", "Git", "OpenStack", "Linux (Debian, Ubuntu, CentOS, Tails)"]
+    },
+    {
+      "name": "Blockchain",
+      "keywords": ["Ethereum", "Bitcoin", "Polygon", "Antelope (EOSIO)", "Dash", "Nym", "Validator/node infrastructure", "Zero-knowledge proofs"]
+    }
+  ],
+  "languages": [
+    { "language": "Spanish", "fluency": "Native" },
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "German", "fluency": "Basic" }
+  ],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Tikuna: An Ethereum Blockchain Network Security Monitoring System",
+      "publisher": "ISPEC 2023 Conference Proceedings",
+      "releaseDate": "2023",
+      "website": "https://github.com/sakundi/tikuna",
+      "summary": "AI-based security monitoring system for the Ethereum P2P network (nodes & validators)."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Arhuaco: Deep Learning and Isolation Based Security for Distributed High-Throughput Computing",
+      "publisher": "Journal of Grid Computing",
+      "releaseDate": "",
+      "website": "https://github.com/kuronosec/arhuaco",
+      "summary": "PhD thesis project at CERN, with the ALICE Collaboration."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Intrusion Prevention and Detection in Grid Computing — The ALICE Case",
+      "publisher": "Journal of Physics: Conference Series, 664(6)",
+      "releaseDate": "2015",
+      "website": "",
+      "summary": "With the ALICE Collaboration."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "A Security Monitoring Framework for Virtualization Based HEP Infrastructures",
+      "publisher": "Journal of Physics: Conference Series, 898(10)",
+      "releaseDate": "2017",
+      "website": "",
+      "summary": "With the ALICE Collaboration."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
+      "course": "Blockchain Security Fundamentals",
+      "institution": "Costa Rica Institute of Technology (TEC)",
+      "date": "2026",
+      "role": "Part-Time Professor, Cybersecurity Master's program",
       "description": ""
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "Tikuna",
       "category": "portfolio",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "https://github.com/sakundi/tikuna",
+      "description": "AI-based security monitoring system for the Ethereum P2P network (nodes & validators), funded by an Ethereum Foundation Academic Research grant."
+    },
+    {
+      "name": "Arhuaco",
+      "category": "portfolio",
+      "date": "",
+      "url": "https://github.com/kuronosec/arhuaco",
+      "description": "PhD thesis project at CERN: deep learning and isolation-based intrusion detection for distributed high-throughput computing."
+    },
+    {
+      "name": "Zikuani",
+      "category": "portfolio",
+      "date": "",
+      "url": "https://github.com/kuronosec/zikuani",
+      "description": "Privacy-preserving identity verification system using zero-knowledge proofs. Backed by ZK Bankai and Polygon; DIF 2025 hackathon winner."
+    },
+    {
+      "name": "ZK Voto Digital",
+      "category": "portfolio",
+      "date": "",
+      "url": "https://github.com/kuronosec/zk-voto-digital",
+      "description": "Secure voting system using Zikuani to verify voter eligibility (humanity, citizenship, age) without exposing personal identity."
     }
   ]
 }

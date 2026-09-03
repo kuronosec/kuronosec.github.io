@@ -12,7 +12,7 @@ site_theme               : "sunrise" # The available themes options are "default
 title                    : "Andrés Gómez Ramírez / Personal Website"
 title_separator          : "-"
 name                     : &name "Andrés Gómez Ramírez"
-description              : &description "Andrés Gómez Ramírez's academic and technical portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Cybersecurity engineer and security researcher — penetration testing, vulnerability research, and applied AI for security monitoring"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://kuronosec.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,25 +23,25 @@ repository               : "kuronosec/kuronosec.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "andres-gomez.jpg"
+  name             : "Andrés Gómez Ramírez"
+  pronouns         : # example: "she/her"
+  bio              : "Cybersecurity Engineer & Security Researcher | PhD, Cybersecurity (Goethe University Frankfurt / CERN) | Co-Founder & CEO, Sakundi"
+  location         : "San José, Costa Rica"
+  employer         : "Sakundi ÖU"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "andres.gomez@sakundi.io"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-1529-4614"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "kuronosec"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
