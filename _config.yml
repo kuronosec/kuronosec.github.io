@@ -12,7 +12,7 @@ site_theme               : "sunrise" # The available themes options are "default
 title                    : "Andrés Gómez Ramírez / Personal Website"
 title_separator          : "-"
 name                     : &name "Andrés Gómez Ramírez"
-description              : &description "Cybersecurity engineer and security researcher — penetration testing, vulnerability research, and applied AI for security monitoring"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Cybersecurity engineer, security researcher, and DevOps/cloud infrastructure engineer — penetration testing, vulnerability research, applied AI for security monitoring, and large-scale cloud & HPC infrastructure"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://kuronosec.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "andres-gomez.jpg"
   name             : "Andrés Gómez Ramírez"
   pronouns         : # example: "she/her"
-  bio              : "Cybersecurity Engineer & Security Researcher | PhD, Cybersecurity (Goethe University Frankfurt / CERN) | Co-Founder & CEO, Sakundi"
+  bio              : "Cybersecurity Engineer & Security Researcher | Senior DevOps Engineer | PhD, Cybersecurity (Goethe University Frankfurt / CERN) | Co-Founder & CEO, Sakundi"
   location         : "San José, Costa Rica"
   employer         : "Sakundi ÖU"
   uri              : # URL

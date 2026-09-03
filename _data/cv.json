@@ -4,7 +4,7 @@
     "email": "andres.gomez@sakundi.io",
     "phone": "",
     "website": "https://kuronosec.github.io",
-    "summary": "Cybersecurity engineer and security researcher with 15+ years of experience across penetration testing, vulnerability research, intrusion detection, and applied AI for security monitoring. PhD in Cybersecurity (Goethe University Frankfurt, in collaboration with CERN). Co-Founder & CEO of Sakundi.",
+    "summary": "Cybersecurity engineer, security researcher, and senior DevOps/cloud infrastructure engineer with 15+ years of experience across penetration testing, vulnerability research, intrusion detection, applied AI for security monitoring, and large-scale cloud & HPC infrastructure. PhD in Cybersecurity (Goethe University Frankfurt, in collaboration with CERN). Co-Founder & CEO of Sakundi.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,24 +35,31 @@
     },
     {
       "company": "Modulo Labs",
-      "position": "Security Developer",
+      "position": "Security & DevOps Developer",
       "startDate": "2025",
       "endDate": "2026",
-      "summary": "Analyzed and developed cryptographic code and smart contracts for Panther, a privacy-enhancing protocol, with a focus on security review."
+      "summary": "Analyzed and developed cryptographic code and smart contracts for Panther, a privacy-enhancing protocol, with a focus on security review. Managed deployment pipelines and infrastructure for the protocol on the Polygon ecosystem."
     },
     {
       "company": "Sakundi ÖU",
       "position": "Co-Founder & CEO",
       "startDate": "2020",
-      "endDate": "Present",
-      "summary": "Founded and lead a security, privacy, and digital identity startup, setting technical direction and client strategy. Deliver security audits, monitoring solutions, and identity infrastructure to enterprise and protocol clients."
+      "endDate": "2025",
+      "summary": "Founded and lead a security, privacy, and digital identity startup, setting technical direction and client strategy. Deliver security audits, monitoring solutions, and identity infrastructure to enterprise and protocol clients. Designed and maintained reproducible, auditable deployment pipelines and infrastructure-as-code for client environments."
     },
     {
-      "company": "Goethe University Frankfurt / CERN",
+      "company": "Edenia",
+      "position": "Blockchain DevOps Engineer",
+      "startDate": "2020",
+      "endDate": "2025",
+      "summary": "Designed, deployed, and maintained Linux-based on-premise and cloud infrastructure on AWS (EC2, EKS, S3, IAM, VPC) for blockchain-focused products. Provisioned and managed Kubernetes clusters and containerized microservices. Authored Terraform modules for infrastructure-as-code. Built CI/CD pipelines with GitHub Actions. Implemented observability with Grafana and Prometheus. Delivered infrastructure for blockchain ecosystems including EOSIO/Antelope, Ethereum, and Bitcoin networks."
+    },
+    {
+      "company": "Goethe University Frankfurt / CERN (ALICE Experiment)",
       "position": "DevOps Engineer",
       "startDate": "2013",
       "endDate": "2020",
-      "summary": "Built and maintained the security monitoring system for the ALICE High-Level Trigger (HLT) computing cluster using Zabbix. Managed infrastructure-as-code and configuration management using Puppet."
+      "summary": "Built and maintained the security monitoring and infrastructure management system for the ALICE High-Level Trigger (HLT) computing cluster using Zabbix. Managed infrastructure-as-code and configuration management using Puppet and Ansible, enforcing hardened baselines across hundreds of compute nodes. Worked with Vagrant and OpenStack for virtual environment provisioning; contributed to the HLT read-out upgrade for LHC Run 2 (published in JINST)."
     },
     {
       "company": "Goethe University Frankfurt / CERN",
@@ -66,7 +73,7 @@
       "position": "Security Researcher",
       "startDate": "2011",
       "endDate": "2013",
-      "summary": "Performed penetration tests, source code audits, and vulnerability assessments for banks, software development companies, and ISPs. Identified and reported multiple CVEs, including a Microsoft DirectShow memory-overwrite vulnerability (MS13-056)."
+      "summary": "Performed infrastructure assessments, penetration tests, source code audits, and vulnerability assessments for banks, software development companies, and ISPs. Identified and reported multiple CVEs, including a Microsoft DirectShow memory-overwrite vulnerability (MS13-056)."
     }
   ],
   "education": [
@@ -101,23 +108,39 @@
   "skills": [
     {
       "name": "Offensive Security",
-      "keywords": ["Penetration testing", "Source code auditing", "Fuzzing", "Vulnerability research", "Exploit development", "Ethical hacking"]
+      "keywords": ["Penetration testing", "Source code auditing", "Fuzzing", "Vulnerability research", "Exploit development", "Ethical hacking", "CVE research"]
     },
     {
       "name": "Defensive Security",
-      "keywords": ["Intrusion detection & prevention", "Security monitoring for distributed/grid systems", "Distributed digital identity"]
+      "keywords": ["Intrusion detection & prevention", "Security monitoring for distributed/grid systems", "Distributed digital identity", "CIS hardening", "IAM least privilege", "SSH key management", "MFA", "Vulnerability scanning"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "keywords": ["OpenStack", "AWS (EC2, EKS, S3, CloudWatch, IAM, VPC)", "Multi-account environments", "Linux (Debian, Ubuntu, CentOS, Tails)"]
+    },
+    {
+      "name": "Containers & Orchestration",
+      "keywords": ["Docker", "Kubernetes (EKS)", "Helm", "Containerized microservices deployment"]
+    },
+    {
+      "name": "CI/CD",
+      "keywords": ["GitLab CI (pipelines, downstream, multi-project)", "GitHub Actions", "Jenkins"]
+    },
+    {
+      "name": "IaC & Configuration Management",
+      "keywords": ["Terraform", "Puppet", "Ansible", "Foreman", "Vagrant"]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "keywords": ["Grafana", "Prometheus", "Zabbix", "AWS CloudWatch", "ELK Stack"]
     },
     {
       "name": "AI / ML for Security",
       "keywords": ["Deep learning", "Machine learning", "NLP", "TensorFlow", "Keras", "scikit-learn", "pandas", "NumPy", "SciPy", "Gensim"]
     },
     {
-      "name": "Languages",
-      "keywords": ["Python", "JavaScript/Node.js", "C/C++", "Java", "Solidity"]
-    },
-    {
-      "name": "DevOps / Infra",
-      "keywords": ["Docker", "Ansible", "Puppet", "Foreman", "Vagrant", "Git", "OpenStack", "Linux (Debian, Ubuntu, CentOS, Tails)"]
+      "name": "Programming & Scripting",
+      "keywords": ["Python", "Bash/Shell", "JavaScript/Node.js", "Perl", "C/C++", "Java", "Solidity"]
     },
     {
       "name": "Blockchain",
@@ -134,7 +157,7 @@
   "publications": [
     {
       "name": "Tikuna: An Ethereum Blockchain Network Security Monitoring System",
-      "publisher": "ISPEC 2023 Conference Proceedings",
+      "publisher": "ISPEC 2023, Springer LNCS vol. 14341",
       "releaseDate": "2023",
       "website": "https://github.com/sakundi/tikuna",
       "summary": "AI-based security monitoring system for the Ethereum P2P network (nodes & validators)."
@@ -147,6 +170,20 @@
       "summary": "PhD thesis project at CERN, with the ALICE Collaboration."
     },
     {
+      "name": "A Security Monitoring Framework for Virtualization Based HEP Infrastructures",
+      "publisher": "Journal of Physics: Conference Series, 898(10)",
+      "releaseDate": "2017",
+      "website": "",
+      "summary": "With the ALICE Collaboration."
+    },
+    {
+      "name": "The ALICE High-Level Trigger Read-Out Upgrade for LHC Run 2",
+      "publisher": "JINST, IOP Publishing",
+      "releaseDate": "2015",
+      "website": "",
+      "summary": "With the ALICE Collaboration."
+    },
+    {
       "name": "Intrusion Prevention and Detection in Grid Computing — The ALICE Case",
       "publisher": "Journal of Physics: Conference Series, 664(6)",
       "releaseDate": "2015",
@@ -154,9 +191,9 @@
       "summary": "With the ALICE Collaboration."
     },
     {
-      "name": "A Security Monitoring Framework for Virtualization Based HEP Infrastructures",
-      "publisher": "Journal of Physics: Conference Series, 898(10)",
-      "releaseDate": "2017",
+      "name": "O2: A Novel Combined Online and Offline Computing System for the ALICE Experiment",
+      "publisher": "Journal of Physics: Conference Series, 513(1)",
+      "releaseDate": "2014",
       "website": "",
       "summary": "With the ALICE Collaboration."
     }
@@ -191,7 +228,7 @@
       "category": "portfolio",
       "date": "",
       "url": "https://github.com/kuronosec/zikuani",
-      "description": "Privacy-preserving identity verification system using zero-knowledge proofs. Backed by ZK Bankai and Polygon; DIF 2025 hackathon winner."
+      "description": "Privacy-preserving identity verification system using zero-knowledge proofs. Backed by ZK Bankai and Polygon; DIF 2025 hackathon winner. Includes its own cloud deployment infrastructure and CI/CD pipeline."
     },
     {
       "name": "ZK Voto Digital",
